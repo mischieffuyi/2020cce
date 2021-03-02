@@ -96,10 +96,37 @@ int main ()
 
 # 進階題：A的B次方函數 
 ```C
+#include <stdio.h>
+int MYPOWER(int a, int b)
+{
+	int ans=1;
+	for(int i=1;i<=b;i++)
+	{
+		ans*=a;
+	}
+	return ans;
+}
+int main (void)
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("[%d]",MYPOWER(a,b));
+	return 0;
+}
 
 ```
 
 # 進階題：漸增數列相加 
 ```C
-
+#include <stdio.h>
+int main ()
+{
+	int n,ans=0;
+	scanf("%d",%n);
+	for(int i=n;i>=1;i--)
+	{
+		ans=ans+i*(i-1);
+	}
+	printf("%d\n",ans);
+}
 ```
