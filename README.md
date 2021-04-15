@@ -332,3 +332,12 @@ int main()
 }
 
 ```
+
+# 2021/4/15 UVA10226
+```C
+#include <stdio.h>
+#include <stdlib.h>
+
+
+}
+```
